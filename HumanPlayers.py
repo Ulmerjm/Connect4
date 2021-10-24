@@ -45,5 +45,5 @@ class Players:
             else:
                 break
 
-
-    Order(AskNames())
+    #Allow the players to switch order instead of playing rock paper scissors.
+    def ChooseOrder():
