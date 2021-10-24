@@ -1,15 +1,12 @@
-"""
-This will contain to logic to play with game with two human players.
+#This will contain to logic to play with game with two human players.
 
-@Author John Ulmer
-@Author Richard Muench
-"""
+#Author John Ulmer
+#Author Richard Muench
 
 class Players:
 
-    """
-    Simple method for gathering the name of the players.
-    """
+    #Simple method for gathering the name of the players.
+    
     def AskNames():
         playernames = []
         
@@ -18,10 +15,9 @@ class Players:
 
         return playernames
 
-    """
-    Short rock paper scissors game to determine who should go first?
-    It isnt working and it makes me sad
-    """
+    #Short rock paper scissors game to determine who should go first?
+    #It isnt working and it makes me sad
+    
     def Order(playernames):
         print("We will now decide who goes first...")
         print("This will be a normal game of Rock, Paper Scissors, please choose one when asked.")
@@ -51,4 +47,3 @@ class Players:
 
 
     Order(AskNames())
-    
